@@ -6,13 +6,15 @@
 /.buckd
 /gentest/test.html
 .buck-java11
+node_modules
 
 # Jekyll
 /.sass-cache/
 /_site/
 
 # Visual studio code
-.vscode
+!.vscode
+
 *.pdb
 *.tlog
 *.obj
@@ -63,7 +65,11 @@ Carthage/Build
 
 # Gradle
 .gradle
+local.properties
 
 # NDK/CMake
 .cxx
 .externalNativeBuild
+
+# Docusarus build
+.docusaurus

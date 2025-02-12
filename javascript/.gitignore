@@ -1,10 +1,4 @@
-node_modules
-
-*.gypi
-!/final-flags.gypi
-
+/.emsdk
+/binaries
+/build
 /dist
-/build/*
-/sources/yoga
-
-npm-debug.log*
